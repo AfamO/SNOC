@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="content_pan" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="content_pan" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="content_pan">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePre" type="java.lang.String" value="final ImageIcon icon = new ImageIcon(getClass().getResource(&quot;/snossoftwaretest/setup.png&quot;));&#xa;         content_pan = new JPanel(){&#x9;&#x9;&#x9;&#xa;            protected void paintComponent(Graphics g){&#x9;&#x9;&#x9;&#xa;            g.drawImage(icon.getImage(), 0,0, null);&#xa;            super.paintComponent(g);&#xa;            //super.paintComponent(g);&#xa;            &#xa;        }&#x9;&#xa;        };&#xa;       content_pan.setLayout(null);&#xa;        &#xa;        content_pan.setOpaque(false);&#xa;&#xa;Main_pan = new JPanel();&#xa;        Main_pan.setLayout(new BorderLayout());&#xa;        getContentPane().add(Main_pan);&#xa;        Main_pan.add(content_pan, BorderLayout.CENTER );"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" pref="489" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="232" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Symbol" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="6d" red="35" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="ABOUT SNOS FORM"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="aboutTA">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="        SNOS&#x2026;&#x2026;real-time monitoring and surveillance, with SMS and&#xa; e-mail alerts, of your treasures wherever they may be located&#xa; from wherever you are in Nigeria and in the world, whenever&#xa; you want&#x2026;&#x2026;.. &#x2026;&#x2026;.you may need a second or third person or&#xa; your security company or guard or the nearest Police post/station/patrol&#xa; team or whoever you designate to also receive the alerts for rapid &#xa;response intervention&#x2026;&#x2026;&#x2026;. &#xa;These designated persons must necessarily be physically close to your&#xa; Location of Treasure (LoT) for the purpose of rapid response intervention.&#xa; &#x2026;&#x2026;your LoT may be your home where you live or your country/village home&#xa; where you visit infrequently or office or factory or bank or warehouse or &#xa;event centre/place or project/construction site or plot of land or restaurant or shop. &#xa;It can be your Church or Mosque compound. Your Object of Treasure (OoT)&#xa;can be your car or truck or yacht or ship or aircraft. In your home or office building,&#xa; your Point of Treasure (PoT) may be your cash/gold/diamond/certificates/landed&#xa; property document vault or a particular room or garage or main gate or&#xa; parking lot or sitting room or kitchen or corridor or veranda or&#xa; balcony or lobby or particular doors or windows or cupboards or&#xa; lockers or drawers or shelves or any of the 4 segments of your home/ building&#xa; perimeter fence, etc&#x2026;&#x2026;&#x2026;&#xa;You can designate wherever you want as your point of treasure! &#xa;&#x2026;&#x2026;&#x201d;had I known&#x201d; or &#x201c;had we known&#x201d; is always too late and it has cost implications:&#xa; the cost may be financial or material or tragic loss of human life or lives&#x2026;&#x2026; &#xa;&#x2026;&#x2026;if you think providing security is too expensive, please try insecurity&#x2026;&#x2026;&#x2026;&#xa;&#xa;&#xa;"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
